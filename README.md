@@ -1,6 +1,6 @@
-<p align="center"><img src="./images/apache-iceberg.webp" alt="iceberg logo"></p>
-
 <p align="center"><img src="./images/star-this-repo.gif" alt="Star this repository" /></p>
+
+<p align="center"><img src="./images/apache-iceberg.webp" alt="iceberg logo"></p>
 
 # Apache Iceberg Learning Resources Repository
 Hello and welcome to my comprehensive collection of Apache Iceberg learning materials. This repository is designed to be a centralized resource for anyone looking to learn or deepen their knowledge of Apache Iceberg, regardless of their experience level.
@@ -29,47 +29,76 @@ Thank you for visiting and contributing to this collaborative effort. Together, 
 
  P.s.: Check out my other learning resources: [Kafka Learning Resources](https://github.com/pmoskovi/kafka-learning-resources) and [Flink Learning Resources](https://github.com/pmoskovi/flink-learning-resources) as well.
 
-This document contains 4 Iceberg Learning Resources.
-Last updated: 12/23/2024 11:58:59 AM
+This document contains 7 Iceberg Learning Resources.
+Last updated: 12/27/2024 8:31:54 PM
 
 ## Table of Contents 
-* [Skill Level (4)](#skill-level)
-  * [Beginner (2)](#beginner)
-  * [Intermediate (2)](#intermediate)
-* [Resource Type (4)](#resource-type)
+* [Skill Level (7)](#skill-level)
+  * [Beginner (3)](#beginner)
+  * [Intermediate (4)](#intermediate)
+* [Resource Type (6)](#resource-type)
   * [Video (1)](#video)
-  * [Guide or Tutorial (1)](#guide-or-tutorial)
+  * [Guide or Tutorial (2)](#guide-or-tutorial)
   * [Documentation (1)](#documentation)
+  * [Blog Post (1)](#blog-post)
   * [Book (1)](#book)
+* [Integration (2)](#integration)
+  * [Spark (1)](#spark)
+  * [Kafka (1)](#kafka)
 
-## Skill Level (4)
+## Skill Level (7)
 
-### Beginner (2)
+### Beginner (3)
 * [Apache Iceberg Crash Course](https://www.dremio.com/blog/apache-iceberg-crash-course-what-is-a-data-lakehouse-and-a-table-format/?utm_source=ev_external_blog&utm_medium=influencer&utm_campaign=ultimate_directory_of_apache_iceberg_resources&utm_content=alexmerced&utm_term=external_blog#h-what-is-a-table-format): Apache Iceberg Crash Course: What is a Data Lakehouse and a Table Format - by Alex Merced | Source: https://dremio.com
 <br/>Tags: [Beginner](#beginner), [Guide or Tutorial](#guide-or-tutorial)
 * [Apache Iceberg Lakehouse Crash Course](https://hello.dremio.com/webcast-an-apache-iceberg-lakehouse-crash-course-reg.html): 10-part webcast series by Alex Merced. Free content, registration required. | Source: https://dreamio.com
 <br/>Tags: [Beginner](#beginner), [Video](#video)
+* [Iceberg Blogs](https://iceberg.apache.org/blogs/): A collection of Iceberg blogs, maintained on by the Apache Iceberg site. | Source: https://iceberg.apache.org
+<br/>Tags: [Beginner](#beginner), [Blog Post](#blog-post)
 
-### Intermediate (2)
+### Intermediate (4)
 * [Apache Iceberg: The Definitive Guide](https://hello.dremio.com/wp-apache-iceberg-the-definitive-guide-reg.html?utm_source=alexmerced&utm_medium=external_blog&utm_campaign=ultimate_directory_of_apache_iceberg_resources): The industry's first (and so far only) book on Apache Iceberg; published in June 2024, 300 pages. Free download with registration. | Source: https://dreamio.com
 <br/>Tags: [Intermediate](#intermediate), [Book](#book)
 * [Apache Iceberg Documentation](https://iceberg.apache.org/docs/latest/): The official Apache Iceberg documentation | Source: https://iceberg.apache.org
 <br/>Tags: [Intermediate](#intermediate), [Documentation](#documentation)
+* [Iceberg Spark Quick Start](https://iceberg.apache.org/spark-quickstart/): A tutorial that gets you going with Iceberg using Spark. Sample SparkSQL, Spark-Shell, and PySpark code.
+ | Source: https://iceberg.apache.org
+<br/>Tags: [Intermediate](#intermediate), [Guide or Tutorial](#guide-or-tutorial)[Spark](#spark)
+* [Tableflow: From Kafka topics to Iceberg tables](https://www.confluent.io/product/tableflow/): Connecting the operational estate with the analytical estate. A Kafka Connector for Iceberg tables. | Source: https://confluent.io
+<br/>Tags: [Intermediate](#intermediate)[Kafka](#kafka)
 
-## Resource Type (4)
+## Resource Type (6)
 
 ### Video (1)
 * [Apache Iceberg Lakehouse Crash Course](https://hello.dremio.com/webcast-an-apache-iceberg-lakehouse-crash-course-reg.html): 10-part webcast series by Alex Merced. Free content, registration required. | Source: https://dreamio.com
 <br/>Tags: [Beginner](#beginner), [Video](#video)
 
-### Guide or Tutorial (1)
+### Guide or Tutorial (2)
 * [Apache Iceberg Crash Course](https://www.dremio.com/blog/apache-iceberg-crash-course-what-is-a-data-lakehouse-and-a-table-format/?utm_source=ev_external_blog&utm_medium=influencer&utm_campaign=ultimate_directory_of_apache_iceberg_resources&utm_content=alexmerced&utm_term=external_blog#h-what-is-a-table-format): Apache Iceberg Crash Course: What is a Data Lakehouse and a Table Format - by Alex Merced | Source: https://dremio.com
 <br/>Tags: [Beginner](#beginner), [Guide or Tutorial](#guide-or-tutorial)
+* [Iceberg Spark Quick Start](https://iceberg.apache.org/spark-quickstart/): A tutorial that gets you going with Iceberg using Spark. Sample SparkSQL, Spark-Shell, and PySpark code.
+ | Source: https://iceberg.apache.org
+<br/>Tags: [Intermediate](#intermediate), [Guide or Tutorial](#guide-or-tutorial)[Spark](#spark)
 
 ### Documentation (1)
 * [Apache Iceberg Documentation](https://iceberg.apache.org/docs/latest/): The official Apache Iceberg documentation | Source: https://iceberg.apache.org
 <br/>Tags: [Intermediate](#intermediate), [Documentation](#documentation)
 
+### Blog Post (1)
+* [Iceberg Blogs](https://iceberg.apache.org/blogs/): A collection of Iceberg blogs, maintained on by the Apache Iceberg site. | Source: https://iceberg.apache.org
+<br/>Tags: [Beginner](#beginner), [Blog Post](#blog-post)
+
 ### Book (1)
 * [Apache Iceberg: The Definitive Guide](https://hello.dremio.com/wp-apache-iceberg-the-definitive-guide-reg.html?utm_source=alexmerced&utm_medium=external_blog&utm_campaign=ultimate_directory_of_apache_iceberg_resources): The industry's first (and so far only) book on Apache Iceberg; published in June 2024, 300 pages. Free download with registration. | Source: https://dreamio.com
 <br/>Tags: [Intermediate](#intermediate), [Book](#book)
+
+## Integration (2)
+
+### Spark (1)
+* [Iceberg Spark Quick Start](https://iceberg.apache.org/spark-quickstart/): A tutorial that gets you going with Iceberg using Spark. Sample SparkSQL, Spark-Shell, and PySpark code.
+ | Source: https://iceberg.apache.org
+<br/>Tags: [Intermediate](#intermediate), [Guide or Tutorial](#guide-or-tutorial)[Spark](#spark)
+
+### Kafka (1)
+* [Tableflow: From Kafka topics to Iceberg tables](https://www.confluent.io/product/tableflow/): Connecting the operational estate with the analytical estate. A Kafka Connector for Iceberg tables. | Source: https://confluent.io
+<br/>Tags: [Intermediate](#intermediate)[Kafka](#kafka)
